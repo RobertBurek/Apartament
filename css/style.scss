@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext');
+
+$font-size-title : 3rem;
+$font-size-subtitle : 2rem;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    box-shadow: none;
+}
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    color: #474550;
+    margin: 0;
+    font-size: 10px;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 60px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+i {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+/* ------------------FORMULARZ------------------------ */
+input:focus-visible, 
+textarea:focus-visible {
+    outline: 3px solid #474550;
+}
+.formField {
+    font: inherit; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+    margin: 3px 0 10px 0; 
+    padding: 3px 0;
+    width: 30vw;
+}
+textarea.formField {
+    width: 45vw; 
+    height: 10vh;
+}
+.btn {
+    cursor: pointer;
+    background: linear-gradient(#5e5c5c 0, #c8c4c4 100%);
+    border: 1px solid #ccc;
+    line-height: 32px;
+    font-size: 14px;
+    padding: 0 25px;
+    border-radius: 3px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.2rem;
+}
+.btn:hover {
+    color: #474550;
+    background: linear-gradient(#888585 0, #ece9e9 100%);
+}
+a.btn {
+    display: block;
+    width: 108px;
+    margin: 0 auto;
+}
+.send_form_status {
+    border: 1px dashed #ccc;
+    display: none; 
+    padding: 0 10px; 
+    margin: 10px 0;
+}
+.send_form_status p {
+    font-size: 15px;
+}
+.status_ok {
+    color: #060;
+}
+.status_err {
+    color: #F00;
+}
+.from-title {
+    font-size: $font-size-title;
+    padding-bottom: 20px;
+    // text-shadow: #fff 2px 2px;
+    letter-spacing: 0.1rem;
+}
+label {
+    // text-shadow: #fff 2px 2px;
+    font-size: $font-size-subtitle;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+/* ------------------FORMULARZ------------------------ */

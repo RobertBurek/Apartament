@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext');
 
 $font-size-title : 3rem;
 $font-size-subtitle : 2rem;
@@ -21,6 +21,75 @@ body, html {
     color: #474550;
     margin: 0;
     font-size: 10px;
+}
+
+.bgStart {
+    background-image: url('../images/Min/foto11.jpg');
+}
+
+.bg-main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.bg1 {
+    background-image: url('../images/Min/foto1.jpg');
+}
+.bg2 {
+    background-image: url('../images/Min/foto2.jpg');
+}
+.bg3 {
+    background-image: url('../images/Min/foto3.jpg');
+}
+.bg4 {
+    background-image: url('../images/Min/foto4.jpg');
+}
+.bg5 {
+    background-image: url('../images/Min/foto5.jpg');
+}
+.bg6 {
+    background-image: url('../images/Min/foto6.jpgg');
+}
+.bg7 {
+    background-image: url('../images/Min/foto7.jpg');
+}
+.bg8 {
+    background-image: url('../images/Min/foto8.jpg');
+}
+
+.main{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // align-items: flex-start;
+}
+
+.background-show {
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.background-show li {
+	position: absolute;
+	width: 101%;
+	height: 101%;
+	top: -0.5%;
+	left: -0.5%;
+	opacity: 0;
+	-webkit-transition: opacity 3s;
+	-moz-transition: opacity 3s;
+	transition: opacity 3s;
 }
 
 .container {

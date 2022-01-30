@@ -34,6 +34,23 @@ i {
   font-weight: 700;
 }
 
+/* ------------------FOOTER------------------------ */
+.footer-section {
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 1.3rem;
+}
+
+.footer-text a {
+  color: #474550;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* ------------------FOOTER------------------------ */
 /* ------------------FORMULARZ------------------------ */
 input:focus-visible,
 textarea:focus-visible {

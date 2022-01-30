@@ -1,7 +1,5 @@
 let sliderBackground = document.getElementById("backgroundShow")
 let slidersBackground = sliderBackground.getElementsByTagName("li");
-let mainTitle = document.querySelector(".main-title");
-let mainSubtitle = document.querySelector(".main-subtitle");
 
 let next = 0;
 
@@ -27,13 +25,7 @@ setTimeout(() => {
     setInterval(switchBackgroundSlide, 3000);
 }, 2000);
 
-mainTitle.classList.add("main-title-shadow-animation");
-mainSubtitle.classList.add("main-subtitle-shadow-animation");
 
 setTimeout(() => {
     sliderBackground.classList.remove("bgStart");
-    mainTitle.classList.remove("main-title-shadow-animation");
-    mainTitle.classList.add("main-title-shadow");
-    mainSubtitle.classList.remove("main-subtitle-shadow-animation");
-    mainSubtitle.classList.add("main-subtitle-shadow");
 }, 4000);

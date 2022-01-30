@@ -24,13 +24,6 @@ body, html {
   background-image: url("../images/Min/foto11.jpg");
 }
 
-.bg-main {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
-}
-
 .bg1 {
   background-image: url("../images/Min/foto1.jpg");
 }
@@ -52,7 +45,7 @@ body, html {
 }
 
 .bg6 {
-  background-image: url("../images/Min/foto6.jpgg");
+  background-image: url("../images/Min/foto6.jpg");
 }
 
 .bg7 {
@@ -61,19 +54,6 @@ body, html {
 
 .bg8 {
   background-image: url("../images/Min/foto8.jpg");
-}
-
-.main {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .background-show {
@@ -91,15 +71,60 @@ body, html {
 
 .background-show li {
   position: absolute;
-  width: 101%;
-  height: 101%;
-  top: -0.5%;
-  left: -0.5%;
+  width: 100%;
+  height: 100%;
   opacity: 0;
   -webkit-transition: opacity 3s;
   transition: opacity 3s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
+/* ------------------SPLASH------------------------ */
+.splash {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.page-intro {
+  max-width: 80%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.main-title {
+  font-size: 4.5rem;
+  font-weight: 900;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  color: black;
+}
+
+.main-title span {
+  display: block;
+  padding: 10px;
+}
+
+.main-subtitle {
+  margin: 30px auto;
+  font-weight: 900;
+  letter-spacing: 3px;
+  word-spacing: 0px;
+  font-size: 3rem;
+  color: #ffffe6;
+}
+
+/* ------------------SPLASH------------------------ */
 .container {
   max-width: 80%;
   margin: 0 auto;
@@ -155,7 +180,7 @@ textarea.formField {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5e5c5c), to(#c8c4c4));
   background: linear-gradient(#5e5c5c 0, #c8c4c4 100%);
   border: 1px solid #ccc;
-  line-height: 32px;
+  line-height: 30px;
   font-size: 14px;
   padding: 0 25px;
   border-radius: 3px;
@@ -172,8 +197,10 @@ textarea.formField {
 
 a.btn {
   display: block;
-  width: 108px;
+  width: 100px;
+  height: 30px;
   margin: 0 auto;
+  text-decoration: none;
 }
 
 .send_form_status {

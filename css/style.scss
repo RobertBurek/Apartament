@@ -166,6 +166,7 @@ i {
 /* ------------------SPLASH------------------------ */
 
 /* ------------------MORE------------------------ */
+.video-album,
 .more {
     background-color: #eff5f5;
 }
@@ -195,6 +196,31 @@ i {
 }
 
 /* ------------------FOTO ALBUM------------------------ */
+
+/* ------------------VIDEO---------------------------- */
+.video {
+    // margin-top: 20px;
+    // display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    // text-align: center;
+}
+.blockFilm {
+    // flex: 0 0 50%;
+    max-width: 100%;
+    margin-top: 40px;
+}
+video {
+    height: 350px;
+    margin-left: -3px;
+    margin-right: -3px;
+}
+.video img {
+    height: 350px;
+}
+/* ------------------VIDEO---------------------------- */
+
 
 /* ------------------FOOTER------------------------ */
 .footer-section {

@@ -161,6 +161,7 @@ i {
 
 /* ------------------SPLASH------------------------ */
 /* ------------------MORE------------------------ */
+.video-album,
 .more {
   background-color: #eff5f5;
 }
@@ -197,6 +198,29 @@ i {
 }
 
 /* ------------------FOTO ALBUM------------------------ */
+/* ------------------VIDEO---------------------------- */
+.video {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.blockFilm {
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+video {
+  height: 350px;
+  margin-left: -3px;
+  margin-right: -3px;
+}
+
+.video img {
+  height: 350px;
+}
+
+/* ------------------VIDEO---------------------------- */
 /* ------------------FOOTER------------------------ */
 .footer-section {
   background-color: #fff;

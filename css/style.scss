@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap&subset=latin-ext');
 // @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext');
 
-$font-size-title : 3rem;
-$font-size-subtitle : 2rem;
+$font-size-title : 2.5rem;
+$font-size-subtitle : 1.8rem;
 $background-color-myFoto: #252527;
 
 *,
@@ -120,7 +120,11 @@ body, html {
     max-width: 80%;
     text-align: center;
     // height: 60vh;
-    margin-top: 80px;
+    margin-top: 38px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .main-title {
@@ -129,6 +133,7 @@ body, html {
     letter-spacing: 5px;
     word-spacing: 10px;
     color: black;
+    // color: $background-color-myFoto;
 }
 .main-title span {
     display: block;
@@ -146,16 +151,31 @@ body, html {
 /* ------------------SPLASH------------------------ */
 
 .container {
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 60px;
-    padding-bottom: 40px;
+    padding: 20px;
+    // padding-bottom: 40px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes-wrapper {
+    display: flex;
+    flex-direction: row;
+    // flex-flow: center;
+    justify-content: center;
+}
+.box{
+    width: 30%;
+    padding: 10px;
+    // flex-flow: center;
+    margin: 0 10px;
 }
 
 i {
     font-size: 3.5rem;
-    font-weight: 700;
+    // font-weight: 700;
 }
 
 /* ------------------FOOTER------------------------ */
@@ -233,6 +253,7 @@ a.btn {
 // .status-err {
 //     color: #F00;
 // }
+.container-title,
 .from-title {
     font-size: $font-size-title;
     padding-bottom: 20px;

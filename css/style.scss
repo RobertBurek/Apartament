@@ -253,11 +253,11 @@ textarea:focus-visible {
     border-radius: 3px; 
     margin: 3px 0 10px 0; 
     padding: 3px 0;
-    width: 30vw;
+    width: 60%;
 }
 textarea.form-field {
-    width: 45vw; 
-    height: 10vh;
+    width: 90%; 
+    height: 60px;
 }
 .btn {
     cursor: pointer;
@@ -265,11 +265,13 @@ textarea.form-field {
     border: 1px solid #ccc;
     line-height: 30px;
     font-size: 14px;
-    padding: 0 25px;
+    // padding: 0 25px;
     border-radius: 3px;
     font-weight: 700;
     color: #fff;
     letter-spacing: 0.2rem;
+    width: 100px;
+    height: 30px;
 }
 .btn:hover {
     color: #474550;
@@ -277,8 +279,6 @@ textarea.form-field {
 }
 a.btn {
     display: block;
-    width: 100px;
-    height: 30px;
     margin: 10px auto;
     text-decoration: none;
 }

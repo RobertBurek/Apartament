@@ -81,6 +81,18 @@ body, html {
   background-position: center center;
 }
 
+.more {
+  background-color: #eff5f5;
+}
+
+.section-title {
+  margin: 0 0 40px 0;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 20px;
+  letter-spacing: 0.1rem;
+}
+
 /* ------------------SPLASH------------------------ */
 .splash {
   z-index: 1;
@@ -156,13 +168,16 @@ i {
 
 /* ------------------FOOTER------------------------ */
 /* ------------------FORMULARZ------------------------ */
+.form-contact {
+  background-color: #eff5f5;
+}
+
 input:focus-visible,
 textarea:focus-visible {
   outline: 3px solid #474550;
 }
 
-.formField {
-  font: inherit;
+.form-field {
   border: 1px solid #ccc;
   border-radius: 3px;
   margin: 3px 0 10px 0;
@@ -170,7 +185,7 @@ textarea:focus-visible {
   width: 30vw;
 }
 
-textarea.formField {
+textarea.form-field {
   width: 45vw;
   height: 10vh;
 }
@@ -199,27 +214,19 @@ a.btn {
   display: block;
   width: 100px;
   height: 30px;
-  margin: 0 auto;
+  margin: 10px auto;
   text-decoration: none;
 }
 
-.send_form_status {
+.send-form-status {
   border: 1px dashed #ccc;
   display: none;
   padding: 0 10px;
   margin: 10px 0;
 }
 
-.send_form_status p {
+.send-form-status p {
   font-size: 15px;
-}
-
-.status_ok {
-  color: #060;
-}
-
-.status_err {
-  color: #F00;
 }
 
 .from-title {

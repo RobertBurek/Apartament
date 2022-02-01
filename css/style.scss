@@ -30,7 +30,7 @@ li {
 
 i {
     font-size: 3.5rem;
-    margin: 10px;
+    margin-bottom: 10px;
     // font-weight: 700;
 }
 
@@ -119,13 +119,13 @@ p {
 
 
 
-.section-title {
-    margin: 0 0 40px 0;
-    text-align: center;
-    font-size: $font-size-title;
-    padding-bottom: 20px;
-    letter-spacing: 0.1rem;
-}
+// .section-title {
+//     margin: 0 0 40px 0;
+//     text-align: center;
+//     font-size: $font-size-title;
+//     padding-bottom: 20px;
+//     letter-spacing: 0.1rem;
+// }
 
 /* ------------------SPLASH------------------------ */
 .splash {
@@ -303,10 +303,11 @@ a.btn {
 // .status-err {
 //     color: #F00;
 // }
-.container-title,
-.from-title {
+.container-title
+// .from-title 
+{
     font-size: $font-size-title;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     letter-spacing: 0.1rem;
 }
 label {
@@ -317,6 +318,7 @@ label {
 /* ------------------FORMULARZ------------------------ */
 
 /* ------------------LOCATION---------------------- */
+.contact,
 .location {
     background-color: $background-color-myFoto;
     color: #eff5f5;
@@ -332,6 +334,14 @@ p a {
     border: 0;
 }
 /* ------------------LOCATIONS---------------------- */
+/* ------------------CONTACT---------------------- */
+h6 {
+    font-size: 2rem;
+}
+.space {
+    margin-top: 20px;
+}
+/* ------------------CONTACT---------------------- */
 
 /* ------------------RESPONZYWNOŚĆ------------------------ */
 

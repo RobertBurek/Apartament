@@ -10,6 +10,7 @@
         content="Zakopane, apartament, hotel, wynajm, wypoczynek, zima, pokoje, pokój, narty, góry, relaks">
     <title>Apartament jak hotel</title>
     <script>document.write('<link rel="stylesheet" href="./css/style.css?dev=' + Math.floor(Math.random() * 100) + '"\>');</script>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <script src="https://kit.fontawesome.com/1085229b76.js" crossorigin="anonymous"></script>
     <script src="./js/jquery.min.js"></script>
     <script>
@@ -30,6 +31,23 @@
 </head>
 
 <body>
+    <div class="zero-font-size">
+    <nav>
+        <div class="wrapper">
+            <button class="burger-icon"><i class="fas fa-bars"></i></button>
+            <div class="nav-items">
+                <a href="#main" class="btnNav">Home</a>
+                <a href="#more" class="btnNav">Więcej</a>
+                <a href="#fotoAlbum" class="btnNav">Foto</a>
+                <a href="#videoAlbum" class="btnNav">Video</a>
+                <a href="#location" class="btnNav">Lokalizacja</a>
+                <a href="#contact" class="btnNav">Kontakty</a>
+                <a href="#formContact" class="btnNav">Spytaj?</a>
+                <!-- <a class="showMenu"><img src="img/iconMenu.png" alt="Ikona nawigacji>" id="iconMenu"></a> -->
+            </div>
+        </div>
+    </nav>
+
     <section id="main" class="">
         <ul id="backgroundShow" class="background-show bgStart">
             <li class="bg1"></li>
@@ -111,18 +129,18 @@
             </h2>
             <div class="">
                 <ul id="listFoto">
-                    <li><img src="./images/foto1.jpg" alt="" class="foto"></li>
-                    <li><img src="./images/foto2.jpg" alt="" class="foto"></li>
-                    <li><img src="./images/foto9.jpg" alt="" class="foto"></li>
-                    <li><img src="./images/foto3.jpg" alt="" class="foto"></li>
-                    <li><img src="./images/foto4.jpg" alt="" class="foto"></li>
-                    <li><img src="./images/foto10.jpg" alt="" class="foto"></li>
-                    <li><img src="./images/foto5.jpg" alt="" class="foto"></li>
-                    <li><img src="./images/foto6.jpg" alt="" class="foto"></li>
-                    <li><img src="./images/foto11.jpg" alt="" class="foto"></li>
-                    <li><img src="./images/foto7.jpg" alt="" class="foto"></li>
-                    <li><img src="./images/foto8.jpg" alt="" class="foto"></li>
-                    <li><img src="./images/foto12.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto1.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto2.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto9.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto3.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto4.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto10.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto5.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto6.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto11.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto7.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto8.jpg" alt="" class="foto"></li>
+                    <li><img src="./images/Min/foto12.jpg" alt="" class="foto"></li>
                 </ul>
 
             </div>
@@ -161,16 +179,22 @@
                 deserunt nostrum, voluptatem vel ullam, aperiam aliquam quidem magnam neque odit distinctio
                 perferendis, współrzędne nawigacyjne: 49.2905664 N 19.9681948 E
                 <!-- <a href="https://maps.google.com/maps/dir//Tytusa+Cha%C5%82ubi%C5%84skiego+13b+34-500+Zakopane/@49.2905463,19.9681566,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x4715f2ebed0f138d:0x2e3fb4fcf0ef2a4" -->
-                <a href="https://maps.google.com/maps/dir//Tytusa+Cha%C5%82ubi%C5%84skiego+13b+34-500+Zakopane/@49.2904824,19.9680992,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x4715f2ebece5462f:0xadf56d6c4def4943"
-                    target="blank"> <strong> Jak dojechać?</strong></a> 
-                    <!-- rel="noopener noreferrer" -->
+                <!-- <a href="https://maps.google.com/maps/dir//Tytusa+Cha%C5%82ubi%C5%84skiego+13b+34-500+Zakopane/@49.2904824,19.9680992,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x4715f2ebece5462f:0xadf56d6c4def4943"
+                    target="blank"> <strong> Jak dojechać?</strong></a>  -->
+                <!-- <a href="https://maps.google.com/maps/dir//Tytusa+Cha%C5%82ubi%C5%84skiego+13b+34-500+Zakopane/@49.2904824,19.9680992,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x4715f2ebece5462f:0xadf56d6c4def4943"
+                    target="_blank" rel="noopener noreferrer"> <strong> Jak dojechać?</strong></a> -->
+                <a href="https://goo.gl/maps/eTfVJ5VLQbE9BpSH8" target="_blank" rel="noopener noreferrer"> <strong> Jak
+                        dojechać?</strong></a>
+                <!-- rel="noopener noreferrer" -->
             </p>
         </div>
         <div class="frameContent">
             <!-- <iframe class="frameContent"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10408.643488603198!2d19.96109898161239!3d49.29229562419356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715f2ebed0f138d%3A0x2e3fb4fcf0ef2a4!2sTytusa%20Cha%C5%82ubi%C5%84skiego%2C%2013b%2034-500%20Zakopane!5e0!3m2!1spl!2spl!4v1643638259268!5m2!1spl!2spl"
                 allowfullscreen="none" loading="lazy"></iframe> -->
-                <iframe class="frameContent" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.512662293966!2d19.96247054001109!3d49.29236404652329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715f2ebece5462f%3A0xadf56d6c4def4943!2sTytusa%20Cha%C5%82ubi%C5%84skiego%2013b%2C%2034-500%20Zakopane!5e0!3m2!1spl!2spl!4v1643722925000!5m2!1spl!2spl" allowfullscreen="" loading="lazy"></iframe>"
+            <iframe class="frameContent"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.512662293966!2d19.96247054001109!3d49.29236404652329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715f2ebece5462f%3A0xadf56d6c4def4943!2sTytusa%20Cha%C5%82ubi%C5%84skiego%2013b%2C%2034-500%20Zakopane!5e0!3m2!1spl!2spl!4v1643722925000!5m2!1spl!2spl"
+                allowfullscreen="" loading="lazy"></iframe>"
         </div>
     </section>
 
@@ -216,8 +240,9 @@
             </a>
         </div>
     </footer>
-    <!-- <script>document.write('<script src="./js/bgSlider.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script> -->
-    <script>document.write('<script src="/Apartament/js/bgSlider.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
+    <script>document.write('<script src="./js/bgSlider.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
+    <!-- <script>document.write('<script src="/Apartament/js/bgSlider.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script> -->
+</div>
 </body>
 
 </html>

@@ -14,11 +14,49 @@
           box-shadow: none;
 }
 
-body, html {
-  font-family: 'Roboto', sans-serif;
+body,
+html {
+  font-family: "Roboto", sans-serif;
   color: #474550;
   margin: 0;
   font-size: 10px;
+}
+
+.zero-font-size {
+  font-size: 0;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ddd;
+  text-align: center;
+  z-index: 10;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.burger-icon {
+  display: block;
+  margin-right: auto;
+  padding: 0 20px;
+  font-size: 30px;
+  line-height: 50px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.nav-items {
+  display: none;
+  font-size: 1.5rem;
 }
 
 li {
@@ -107,6 +145,10 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+section {
+  scroll-margin-top: 50px;
 }
 
 /* ------------------SPLASH------------------------ */
@@ -341,4 +383,30 @@ h6 {
 
 /* ------------------CONTACT---------------------- */
 /* ------------------RESPONZYWNOŚĆ------------------------ */
+@media (min-width: 768px) {
+  .nav-items {
+    display: block;
+  }
+  .burger-icon {
+    display: none;
+  }
+  .nav-items a {
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #252527;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .nav-items a:hover {
+    color: gray;
+  }
+  .nav-items a:visited {
+    color: #252527;
+  }
+  .nav-items a:active {
+    background-color: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */

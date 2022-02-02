@@ -284,6 +284,12 @@ section {
     transform: scale(1.17,1.17);
     border: 3px solid $background-color-myphoto;
 }
+.more-photos:hover {
+    cursor: pointer;
+}
+.fewer-photos:hover {
+    cursor: pointer;
+}
 
 /* ------------------PHOTO ALBUM------------------------ */
 

@@ -292,6 +292,14 @@ section {
   border: 3px solid #252527;
 }
 
+.more-photos:hover {
+  cursor: pointer;
+}
+
+.fewer-photos:hover {
+  cursor: pointer;
+}
+
 /* ------------------PHOTO ALBUM------------------------ */
 /* ------------------VIDEO---------------------------- */
 .video {

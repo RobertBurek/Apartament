@@ -9,6 +9,7 @@
     <meta name="keywords"
         content="Zakopane, apartament, hotel, wynajm, wypoczynek, zima, pokoje, pokój, narty, góry, relaks">
     <title>Apartament jak hotel</title>
+    <link rel="stylesheet" href="./css/normalize.css">
     <script>document.write('<link rel="stylesheet" href="./css/style.css?dev=' + Math.floor(Math.random() * 100) + '"\>');</script>
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <script src="https://kit.fontawesome.com/1085229b76.js" crossorigin="anonymous"></script>
@@ -37,7 +38,7 @@
             <div class="nav-items hide">
                 <a href="#main" class="btnNav">Start</a>
                 <a href="#more" class="btnNav">Więcej</a>
-                <a href="#fotoAlbum" class="btnNav">Foto</a>
+                <a href="#photoAlbum" class="btnNav">Foto</a>
                 <a href="#videoAlbum" class="btnNav">Wideo</a>
                 <hr>
                 <a href="#location" class="btnNav">Lokalizacja</a>
@@ -121,28 +122,29 @@
         </div>
     </section>
 
-    <section id="fotoAlbum" class="foto-album">
+    <section id="photoAlbum" class="photo-album">
         <div class="container">
             <i class="fas fa-images"></i>
             <h2 class="container-title">
                 <strong>Album foto</strong>
             </h2>
             <div class="">
-                <ul id="listFoto">
-                    <li><img src="./images/Min/foto1.jpg" alt="Sypialnia, jedno małżeńskie łóżko." class="foto"></li>
-                    <li><img src="./images/Min/foto2.jpg" alt="Widok kuchni od strony salonu." class="foto"></li>
-                    <li><img src="./images/Min/foto9.jpg" alt="Aneks kuchenny, okrągły, śniadaniowy stolik z trzema krzesłami." class="foto"></li>
-                    <li><img src="./images/Min/foto3.jpg" alt="Widok salonu od strony kuchni." class="foto"></li>
-                    <li><img src="./images/Min/foto4.jpg" alt="Łazienka, podświetlane lutro, kabina prysznicowa." class="foto"></li>
-                    <li><img src="./images/Min/foto10.jpg" alt="Salon, widok z przedsionka." class="foto"></li>
-                    <li><img src="./images/Min/foto5.jpg" alt="Narożnik w salonie z kwadratowym syolikiem." class="foto"></li>
-                    <li><img src="./images/Min/foto6.jpg" alt="Druga sypialnia, dwa jednoosobowe łóżka." class="foto"></li>
-                    <li><img src="./images/Min/foto11.jpg" alt="Sypialnia z jednym podwójnym łóżkiem. Widok zagłówka oraz kinkietów." class="foto"></li>
-                    <li><img src="./images/Min/foto7.jpg" alt="Przedsionek salonu, okrągły stolik i dwa fotele." class="foto"></li>
-                    <li><img src="./images/Min/foto8.jpg" alt="Widok sypialni małżeńskiej od strony wejścia." class="foto"></li>
-                    <li><img src="./images/Min/foto12.jpg" alt="Widok kuchni oraz przedsionka od strony salonu." class="foto"></li>
+                <ul id="listPhoto">
+                    <li><img src="./images/Min/photo1.jpg" alt="Sypialnia, jedno małżeńskie łóżko." class="photo"></li>
+                    <li><img src="./images/Min/photo2.jpg" alt="Widok kuchni od strony salonu." class="photo"></li>
+                    <li><img src="./images/Min/photo9.jpg" alt="Aneks kuchenny, okrągły, śniadaniowy stolik z trzema krzesłami." class="photo"></li>
+                    <li><img src="./images/Min/photo3.jpg" alt="Widok salonu od strony kuchni." class="photo"></li>
+                    <li><img src="./images/Min/photo4.jpg" alt="Łazienka, podświetlane lutro, kabina prysznicowa." class="photo"></li>
+                    <li><img src="./images/Min/photo10.jpg" alt="Salon, widok z przedsionka." class="photo"></li>
+                    <div id="morePhotos" class="more-photos"><p>&dArr; Więcej zdjęć &dArr;</p></div>
+                    <li><img src="./images/Min/photo5.jpg" alt="Narożnik w salonie z kwadratowym syolikiem." class="photo hide"></li>
+                    <li><img src="./images/Min/photo6.jpg" alt="Druga sypialnia, dwa jednoosobowe łóżka." class="photo hide"></li>
+                    <li><img src="./images/Min/photo11.jpg" alt="Sypialnia z jednym podwójnym łóżkiem. Widok zagłówka oraz kinkietów." class="photo hide"></li>
+                    <li><img src="./images/Min/photo7.jpg" alt="Przedsionek salonu, okrągły stolik i dwa fotele." class="photo hide"></li>
+                    <li><img src="./images/Min/photo8.jpg" alt="Widok sypialni małżeńskiej od strony wejścia." class="photo hide"></li>
+                    <li><img src="./images/Min/photo12.jpg" alt="Widok kuchni oraz przedsionka od strony salonu." class="photo hide"></li>
+                    <div id="fewerPhotos" class="fewer-photos hide"><p>&uArr; Mniej zdjęć &uArr;</p></div>
                 </ul>
-
             </div>
         </div>
     </section>
@@ -242,8 +244,10 @@
     </footer>
     <script>document.write('<script src="./js/bgSlider.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
     <script>document.write('<script src="./js/nav.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
+    <script>document.write('<script src="./js/photo.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
     <!-- <script>document.write('<script src="/Apartamentjakhotel.pl/js/bgSlider.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script> -->
     <!-- <script>document.write('<script src="/Apartamentjakhotel.pl/js/nav.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script> -->
+    <!-- <script>document.write('<script src="/Apartamentjakhotel.pl/js/photo.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script> -->
 </body>
 
 </html>

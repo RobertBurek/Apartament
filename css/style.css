@@ -71,7 +71,7 @@ nav {
 }
 
 .nav-items {
-  font-size: 1.5rem;
+  font-size: 0.9rem;
   width: 85vw;
   position: relative;
   /* right: 0; */
@@ -115,43 +115,43 @@ i {
 
 p {
   font-size: 1.2rem;
-  padding: 0 30px;
+  padding: 0px;
 }
 
 .bgStart {
-  background-image: url("../images/Min/foto11.jpg");
+  background-image: url("../images/Min/photo11.jpg");
 }
 
 .bg1 {
-  background-image: url("../images/Min/foto1.jpg");
+  background-image: url("../images/Min/photo1.jpg");
 }
 
 .bg2 {
-  background-image: url("../images/Min/foto2.jpg");
+  background-image: url("../images/Min/photo2.jpg");
 }
 
 .bg3 {
-  background-image: url("../images/Min/foto3.jpg");
+  background-image: url("../images/Min/photo3.jpg");
 }
 
 .bg4 {
-  background-image: url("../images/Min/foto4.jpg");
+  background-image: url("../images/Min/photo4.jpg");
 }
 
 .bg5 {
-  background-image: url("../images/Min/foto5.jpg");
+  background-image: url("../images/Min/photo5.jpg");
 }
 
 .bg6 {
-  background-image: url("../images/Min/foto6.jpg");
+  background-image: url("../images/Min/photo6.jpg");
 }
 
 .bg7 {
-  background-image: url("../images/Min/foto7.jpg");
+  background-image: url("../images/Min/photo7.jpg");
 }
 
 .bg8 {
-  background-image: url("../images/Min/foto8.jpg");
+  background-image: url("../images/Min/photo8.jpg");
 }
 
 .background-show {
@@ -179,7 +179,7 @@ p {
 }
 
 .container {
-  max-width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
@@ -223,7 +223,7 @@ section {
 }
 
 .main-title {
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: 900;
   letter-spacing: 5px;
   word-spacing: 10px;
@@ -271,18 +271,28 @@ section {
 }
 
 /* ------------------MORE------------------------ */
-/* ------------------FOTO ALBUM------------------------ */
-.foto-album {
+/* ------------------PHOTO ALBUM------------------------ */
+.photo-album {
   color: #eff5f5;
   background-color: #252527;
 }
 
-.foto {
+.photo {
   width: 90%;
   margin: 10px auto;
+  -webkit-transition: border .3s, -webkit-transform .3s;
+  transition: border .3s, -webkit-transform .3s;
+  transition: border .3s, transform .3s;
+  transition: border .3s, transform .3s, -webkit-transform .3s;
 }
 
-/* ------------------FOTO ALBUM------------------------ */
+.photo:hover {
+  -webkit-transform: scale(1.17, 1.17);
+          transform: scale(1.17, 1.17);
+  border: 3px solid #252527;
+}
+
+/* ------------------PHOTO ALBUM------------------------ */
 /* ------------------VIDEO---------------------------- */
 .video {
   max-width: 100%;
@@ -428,12 +438,77 @@ h6 {
 
 /* ------------------CONTACT---------------------- */
 /* ------------------RESPONZYWNOŚĆ------------------------ */
+@media (min-width: 200px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 300px) {
+  .nav-items {
+    font-size: 1rem;
+  }
+  .main-title {
+    font-size: 3.5rem;
+  }
+  .nav-items a {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 400px) {
+  .nav-items {
+    font-size: 1.3rem;
+    width: 88vw;
+    left: 12vw;
+  }
+  .nav-items a {
+    padding: 0 21px;
+  }
+  .main-title {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .nav-items {
+    font-size: 1.5rem;
+    width: 91vw;
+    left: 9vw;
+  }
+  .nav-items a {
+    padding: 0 30px;
+  }
+  p {
+    padding: 0px 30px;
+  }
+}
+
 @media (min-width: 768px) {
   .nav-items {
     display: block;
+    width: 100%;
+    left: 0;
+  }
+  .nav-items a {
+    line-height: 43px;
+    padding: 0 20px;
   }
   .burger-icon {
     display: none;
+  }
+  hr {
+    display: none;
+  }
+  .bgNavHide {
+    background-color: #ddd;
+  }
+  .photo-album .container {
+    width: 65%;
+  }
+  .photo:hover {
+    -webkit-transform: scale(1.25, 1.25);
+            transform: scale(1.25, 1.25);
   }
 }
 /*# sourceMappingURL=style.css.map */

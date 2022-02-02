@@ -23,6 +23,11 @@ html {
   scroll-behavior: smooth;
 }
 
+a,
+a:hover {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
@@ -108,6 +113,10 @@ nav {
   color: #252527;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
+}
+
+.bntNav {
+  text-decoration: none;
 }
 
 .bgStart {
@@ -421,7 +430,7 @@ p a {
 }
 
 .join-us .box {
-  width: 35%;
+  width: 42%;
 }
 
 .box ul {
@@ -557,11 +566,17 @@ p a {
   .form-contact .container {
     width: 60%;
   }
+  .join-us .box {
+    width: 35%;
+  }
 }
 
 @media (min-width: 992px) {
   .form-contact .container {
     width: 50%;
+  }
+  .join-us .box {
+    width: 30%;
   }
 }
 

@@ -26,6 +26,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+a, 
+a:hover {
+    text-decoration: none;
+}
+
 li {
 	list-style: none;
 }
@@ -112,7 +117,11 @@ left: 15vw;
     color: $background-color;
     transition: color 0.3s;
 }
-// ---------------------------NAWIGACJA----------------------------
+.bntNav {
+    text-decoration: none;
+}
+// ---------------------------NAWIGACJA------------------------
+// ---------------------------MAIN----------------------------
 
 .bgStart {
 	background-image: url("../images/Min/photo11.jpg");
@@ -156,6 +165,8 @@ left: 15vw;
 	// align-items: center;
 	// align-items: flex-start;
 }
+
+// ---------------------------MAIN----------------------------
 
 .background-show {
 	width: 100%;
@@ -412,7 +423,7 @@ p a {
     background-color: $background-color;
 }
 .join-us .box{
-    width: 35%;
+    width: 42%;
     // position: relative;
     // top: 50%;
     // left: 50%;
@@ -552,6 +563,9 @@ p a {
     .form-contact .container {
         width: 60%;
     }
+    .join-us .box {
+        width: 35%;
+    }
 	// .nav-items a {
 	// 	padding: 0 20px;
 	// 	text-decoration: none;
@@ -576,6 +590,9 @@ p a {
 @media (min-width: 992px) {
     .form-contact .container {
         width: 50%;
+    }
+    .join-us .box {
+        width: 30%;
     }
 }
 @media (min-width: 1200px) {

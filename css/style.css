@@ -20,21 +20,33 @@ html {
   color: #474550;
   margin: 0;
   font-size: 10px;
-}
-
-.zero-font-size {
-  font-size: 0;
+  scroll-behavior: smooth;
 }
 
 nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  height: 50px;
-  line-height: 50px;
-  background-color: #ddd;
+  height: 40px;
+  line-height: 20px;
   text-align: center;
   z-index: 10;
+}
+
+.bgNavShow {
+  background-color: #ddd;
+}
+
+.bgNavHide {
+  background-color: none;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 .wrapper {
@@ -44,10 +56,11 @@ nav {
 }
 
 .burger-icon {
+  position: absolute;
   display: block;
   margin-right: auto;
-  padding: 0 20px;
-  font-size: 30px;
+  padding: 0 17px;
+  font-size: 20px;
   line-height: 50px;
   border: none;
   background: none;
@@ -55,8 +68,37 @@ nav {
 }
 
 .nav-items {
-  display: none;
   font-size: 1.5rem;
+  width: 85vw;
+  position: relative;
+  /* right: 0; */
+  left: 15vw;
+}
+
+.nav-items a {
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #252527;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.nav-items a:hover {
+  color: gray;
+}
+
+.nav-items a:visited {
+  color: #252527;
+}
+
+.nav-items a:checked {
+  background-color: none;
+}
+
+.nav-items a:focus-within {
+  background: none;
 }
 
 li {
@@ -389,24 +431,6 @@ h6 {
   }
   .burger-icon {
     display: none;
-  }
-  .nav-items a {
-    padding: 0 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #252527;
-    -webkit-transition: color 0.3s;
-    transition: color 0.3s;
-  }
-  .nav-items a:hover {
-    color: gray;
-  }
-  .nav-items a:visited {
-    color: #252527;
-  }
-  .nav-items a:active {
-    background-color: none;
   }
 }
 /*# sourceMappingURL=style.css.map */

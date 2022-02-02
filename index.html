@@ -31,15 +31,15 @@
 </head>
 
 <body>
-    <div class="zero-font-size">
-    <nav>
+    <nav class="bgNavHide">
         <div class="wrapper">
-            <button class="burger-icon"><i class="fas fa-bars"></i></button>
-            <div class="nav-items">
+            <button id="burgerIcon" class="burger-icon showMenu"><i class="fas fa-bars"></i></button>
+            <div class="nav-items hide">
                 <a href="#main" class="btnNav">Home</a>
                 <a href="#more" class="btnNav">Więcej</a>
                 <a href="#fotoAlbum" class="btnNav">Foto</a>
                 <a href="#videoAlbum" class="btnNav">Video</a>
+                <hr>
                 <a href="#location" class="btnNav">Lokalizacja</a>
                 <a href="#contact" class="btnNav">Kontakty</a>
                 <a href="#formContact" class="btnNav">Spytaj?</a>
@@ -241,8 +241,9 @@
         </div>
     </footer>
     <script>document.write('<script src="./js/bgSlider.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
+    <script>document.write('<script src="./js/nav.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
     <!-- <script>document.write('<script src="/Apartament/js/bgSlider.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script> -->
-</div>
+    <!-- <script>document.write('<script src="/Apartament/js/bgSlider.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script> -->
 </body>
 
 </html>
